@@ -18,11 +18,10 @@ export const LoginPage = () => {
   }
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 d-flex flex-column align-items-center">
       <h1>Login uwu</h1>
-      <hr />
-
-      <button className="btn btn-primary"
+      <br />
+      <button style={{background: '#F97AB1', color: 'white'}} className="btn"
       onClick={ iniciarSeccion }
       >
         Login
